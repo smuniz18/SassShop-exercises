@@ -1,14 +1,5 @@
-@import "modules/all";
+@import "base/vars";
+
 @import "base/base";
 
-.location {
-  padding-right: 0;
-  width: 20%;
-
-  dt {
-    color: #506F8E;
-    font-weight: bold;
-  }
-
-  dd { margin: 0; }
-}
+@import "modules/all";
