@@ -9,13 +9,7 @@
     text-align: center;
     width: $kitten-width;
 
-    &:hover {
-      -webkit-transform: scale($scale-amount);
-      -moz-transform: scale($scale-amount);
-      -o-transform: scale($scale-amount);
-      -ms-transform: scale($scale-amount);
-      transform: scale($scale-amount);
-    }
+    &:hover { @include scale($scale-amount); }
   }
 
   img {
