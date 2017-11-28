@@ -24,11 +24,12 @@
       text-decoration: none;
 
       &:hover {
-        -webkit-transform: $scale-amount;
-        -moz-transform: $scale-amount;
-        -o-transform: $scale-amount;
-        -ms-transform: s$scale-amount;
-        transform: $scale-amount;
+        -webkit-transform: scale($scale-amount);
+        -moz-transform: scale($scale-amount);
+        -o-transform: scale($scale-amount);
+        -ms-transform: scale(s$scale-amount);
+        transform: scale($scale-amount);
+        background-color: $blue-dark;
       }
     }
   }

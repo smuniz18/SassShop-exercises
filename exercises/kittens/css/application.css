@@ -73,11 +73,12 @@ a {
       padding: .5em 1em;
       text-decoration: none; }
       .header nav a:hover {
-        -webkit-transform: 1.1;
-        -moz-transform: 1.1;
-        -o-transform: 1.1;
-        -ms-transform: s 1.1;
-        transform: 1.1; }
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(s 1.1);
+        transform: scale(1.1);
+        background-color: #3e566d; }
   .header ul {
     list-style-type: none;
     padding: 0; }
@@ -126,11 +127,11 @@ a {
     text-align: center;
     width: 300px; }
     .kittens li:hover {
-      -webkit-transform: 1.1;
-      -moz-transform: 1.1;
-      -o-transform: 1.1;
-      -ms-transform: 1.1;
-      transform: 1.1; }
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1); }
   .kittens img {
     border: 10px solid #ffffff;
     border-radius: 20px; }
