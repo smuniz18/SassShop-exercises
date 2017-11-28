@@ -1,3 +1,8 @@
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -12,11 +17,6 @@ a {
   color: #506f8e; }
   a:hover {
     color: #aea4ad; }
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both; }
 
 .wrapper {
   margin: 0 auto;
@@ -41,11 +41,8 @@ a {
       .footer nav a:hover {
         color: #d9d0cb; }
   .footer ul {
-    list-style-type: none;
     margin: 0;
     padding: 0; }
-  .footer li {
-    display: inline-block; }
 
 .copy {
   color: #d9d0cb;
@@ -78,10 +75,7 @@ a {
         transform: scale(1.1);
         background-color: #3e566d; }
   .header ul {
-    list-style-type: none;
     padding: 0; }
-  .header li {
-    display: inline-block; }
 
 .info {
   float: left;
@@ -133,5 +127,12 @@ a {
     border-radius: 20px; }
   .kittens label {
     font-weight: bold; }
+
+.list--inline, .footer ul, .header ul {
+  list-style-type: none; }
+  .list--inline li, .footer ul li, .header ul li {
+    display: inline-block; }
+  .list--inline a, .footer ul a, .header ul a {
+    display: block; }
 
 /*# sourceMappingURL=application.css.map */
