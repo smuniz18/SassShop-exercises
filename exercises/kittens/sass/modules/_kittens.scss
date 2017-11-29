@@ -1,4 +1,5 @@
 .kittens {
+  @extend %clearfix;
   list-style-type: none;
   padding: 0;
 
